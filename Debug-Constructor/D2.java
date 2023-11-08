@@ -41,7 +41,7 @@ public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] matrixA = {{1, 2, 3}, {4, 5, 6}};
         int[][] matrixB = {{7, 8}, {9, 10, 11}, {12}}; 
-        MatrixMultiplication matrixMultiplier = new MatrixMultiplication(matrixA, matrixB);
+        MatrixMultiplication matrixMultiplier = new MatrixMultiplication();
 
         int[][] resultMatrix = matrixMultiplier.multiplyMatrices();
 
